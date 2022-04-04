@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 import { leader } from '../shared/leader';
 import { leaders } from '../shared/leaders';
 
+import { Observable, of } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
